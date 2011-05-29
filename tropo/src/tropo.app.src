@@ -1,0 +1,12 @@
+{application, tropo,
+ [
+  {description, "Tropo Appserver in Erlang "},
+  {vsn, "0.9.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tropo_app, []}},
+  {env, []}
+ ]}.
